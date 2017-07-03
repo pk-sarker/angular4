@@ -1,6 +1,6 @@
-# Angular4
+# Angular 4 Scaffolding
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+This is a sample of Angular 4 boilerplate project with basic ui elements, ngx-bootstrap, font-awesome and [SMACSS](https://smacss.com/) styling structure. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Development server
 

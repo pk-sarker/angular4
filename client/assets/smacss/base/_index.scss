@@ -1,0 +1,50 @@
+/* - - - - - Width  - - - - - */
+.wd{
+  &-full {
+    width: 100%;
+  }
+  &-3-4th {
+    width: 75%;
+  }
+  &-half {
+    width: 50%;
+  }
+  &-quarter {
+    width: 25%;
+  }
+  &-35p {
+    width: 35%;
+  }
+  
+  &-40p {
+    width: 40%;
+  }
+  &-60p {
+    width: 60%;
+  }
+  &-65p {
+    width: 65%;
+  }
+  &-70p {
+    width: 70%;
+  }
+  &-75p {
+    width: 75%;
+  }
+  &-80p {
+    width: 80%;
+  }
+  &-85p {
+    width: 85%;
+  }
+  &-90p {
+    width: 90%;
+  }
+}
+
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,35 @@
+/* - - - - - - - - Right Sidebar - - - - - - - - */
+@import "../utilities/variables";
+
+aside {
+  &.sidebar-right {
+    float: right;
+    width: 20%;
+    background-color: darken($color-gray-lightest-shade, 4%);
+    color: $color-black-sh-1;
+    min-height: 500px;
+    -moz-transition: all 0.8s linear;
+    -webkit-transition: all 0.8s linear;
+    transition: all 0.8s linear;
+  
+    .rs-bar-hook {
+      position: relative;
+      left: -50px;
+      background: darken($color-gray-lightest-shade, 4%);
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      padding: 15px 10px;
+      color: $color-black-sh-2;
+      text-align: left;
+      -moz-transition: all 0.8s linear;
+      -webkit-transition: all 0.8s linear;
+      transition: all 0.8s linear;
+    }
+    &.mv-to-r {
+      margin-right: -20%;
+      -moz-transition: all 0.8s linear;
+      -webkit-transition: all 0.8s linear;
+      transition: all 0.8s linear;
+    }
+  }
+}

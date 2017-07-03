@@ -1,0 +1,11 @@
+<aside class="sidebar-left" role="Left Side-Bar" [ngClass]="{'mv-to-l': isCollapsed }" [style.height]="getSideBarHeight()">
+  <div class="container">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <i class="fa fa-chevron-left to-left-arrow" aria-hidden="true" (click)="toggleLeftSideBar()"></i>
+      Left Side Bar
+    </div>
+  </div>
+  <div class="ls-bar-hook" (click)="toggleLeftSideBar()" *ngIf="isCollapsed">
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+  </div>
+</aside>

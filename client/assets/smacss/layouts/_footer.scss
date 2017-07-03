@@ -1,0 +1,21 @@
+/* - - - - - - - - Footer - - - - - - - - */
+@import "../utilities/variables";
+
+footer {
+  margin: 0px;
+  padding: 10px 0px;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  
+  &.dark-gray {
+    background-color: darken($color-gray-base, 20%);
+    color: $color-white;
+    font-family: 'robotothin';
+    font-size: 14px;
+  }
+}

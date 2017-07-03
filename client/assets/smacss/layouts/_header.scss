@@ -1,0 +1,74 @@
+/* - - - - - - - - Header - - - - - - - - */
+@import "../utilities/variables";
+@import "../base/fonts";
+
+header {
+  .navbar {
+    .navbar-brand {
+      margin-right: 50px;
+      padding: 0px;
+      font-family: 'robotothin';
+      font-size: 24px;
+      
+    }
+    .navbar-toggler {
+      color: $color-white;
+      border-color: $color-white;
+      &:hover, &:focus, &:active {
+        color: $color-white;
+        border-color: $color-white;
+      }
+      i {
+        font-size: 24px;
+      }
+    }
+    .navbar-nav {
+      .nav-item {
+        &.active {
+          font-family: 'robotomedium';
+        }
+        font-family: 'latolight';
+      }
+    }
+  }
+  
+  &.bg-gray {
+    background-color: $color-gray-lightest-shade;
+    .navbar {
+      background-color: $color-gray-lightest-shade;
+    }
+  }
+  &.bg-blue {
+    background-color: rgba(0, 100, 255, 0.15);
+    //.navbar {
+    //  background-color: none;
+    //}
+  }
+  &.dark-blue {
+    background-color: $color-blue-dark;
+    color: #fff;
+    .navbar {
+      .navbar-brand {
+        color: #fff;
+      }
+      .navbar-nav {
+        .nav-item {
+          &.active {
+            .nav-link {
+              color: #fff;
+              font-weight: 600;
+              opacity: 1.0;
+            }
+          }
+          .nav-link {
+            color: #fafafa;
+            opacity: 0.8;
+            &:hover {
+              opacity: 1.0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
